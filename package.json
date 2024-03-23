@@ -1,0 +1,16 @@
+{
+  "name": "habitapp",
+  "version": "1.0.0",
+  "description": "an app for building habits",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "joe warner",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.1",
+    "mongoose": "^8.2.3"
+  }
+}
